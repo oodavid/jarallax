@@ -215,6 +215,7 @@
             visibility : 'hidden',
             'z-index'  : _this.options.zIndex
         });
+        _this.image.$container.setAttribute('class', 'jarallax-container');
         _this.image.$container.setAttribute('id', 'jarallax-container-' + _this.instanceID);
         _this.$item.appendChild(_this.image.$container);
 
